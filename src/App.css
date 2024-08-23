@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+
+⁠* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(187, 90%, 32%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root, #__next {
+  isolation: isolate;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.836);
+  width: 80%;
+  max-width: 800px;
+  margin-left: 22px;
+  padding: 20px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.quote-content {
+  padding: 0 20px;
+}
+
+.author {
+  color: hsl(189, 93%, 22%);
+  text-align: end;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(187, 90%, 32%);
   color: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.button-position {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button:hover {
+  background-color: hwb(197 2% 47%);
+}
+
+input, button, textarea, select {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+
+/*
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .fa-quote-left {
+    font-size: 1.2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+
+  .fa-quote-left {
+    font-size: 1rem;
+  }
+}
+  */
