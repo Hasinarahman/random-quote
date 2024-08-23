@@ -46,7 +46,7 @@ function Quote() {
                 </>
             )}
             <div className="button-position">
-                <button onClick={handleQuote} id="new-quote">New Quotes</button>
+                <button onClick={handleQuote} id="new-quote">New Quote</button>
             </div>
             <div> <a href='twitter.com/intent/tweet' target="_blank _top"  id="tweet-quote">twitter</a></div>
         </div>
