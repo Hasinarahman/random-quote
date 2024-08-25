@@ -15,7 +15,6 @@ function Quote() {
         return res.json();
       })
       .then((results) => {
-        console.log('API Response:', results); // Log the response for debugging
         if (results.quotes && results.quotes.length > 0) {
           const randomIndex = Math.floor(Math.random() * results.quotes.length);
           setQuote(results.quotes[randomIndex]);
@@ -25,7 +24,6 @@ function Quote() {
       })
       .catch((error) => {
         setError(error.message);
-        console.error('Error fetching the quote:', error);
       });
   };
 
@@ -37,9 +35,9 @@ function Quote() {
     <div className="container" id="quote-box">
       <h1>Quote of the Day</h1>
       {error ? (
-          <p className="error">
-            Error: {error}
-          </p>
+        <p className="error">Error: 
+          {error}
+        </p>
             ) : (
                 <>
                     <i className="fa-solid fa-quote-left"></i>
