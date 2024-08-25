@@ -41,16 +41,16 @@ function Quote() {
         </p>
       ) : (
         <>
-                <i className="fa-solid fa-quote-left" />
-                <p className="quote-content" id="text">{quote.quote}</p>
-                <p className="author" id="author">
-                    ---
-                    {quote.author}
-                  </p>
-              </>
+          <i className="fa-solid fa-quote-left" />
+          <p className="quote-content" id="text">{quote.quote}</p>
+          <p className="author" id="author">
+            ---
+            {quote.author}
+          </p>
+        </>
       )}
       <div className="button-position">
-        <button onClick={handleQuote} id="new-quote">New Quote</button>
+        <button onClick={handleQuote} id="new-quote" type="button">New Quote</button>
       </div>
       <div>
         <a href="twitter.com/intent/tweet" target="_blank _top" id="tweet-quote">twitter</a>
