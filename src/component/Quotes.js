@@ -36,24 +36,24 @@ function Quote() {
       <h1>Quote of the Day</h1>
       {error ? (
         <p className="error">
-          Error: 
+          Error:
           {error}
         </p>
       ) : (
-              <>
-                  <i className="fa-solid fa-quote-left" />
-                  <p className="quote-content" id="text">{quote.quote}</p>
-                  <p className="author" id="author">
+        <>
+                <i className="fa-solid fa-quote-left" />
+                <p className="quote-content" id="text">{quote.quote}</p>
+                <p className="author" id="author">
                     ---
                     {quote.author}
                   </p>
-                </>
+              </>
       )}
       <div className="button-position">
-              <button onClick={handleQuote} id="new-quote">New Quote</button>
+        <button onClick={handleQuote} id="new-quote">New Quote</button>
       </div>
       <div>
-          <a href="twitter.com/intent/tweet" target="_blank _top" id="tweet-quote">twitter</a>
+        <a href="twitter.com/intent/tweet" target="_blank _top" id="tweet-quote">twitter</a>
       </div>
     </div>
   );
