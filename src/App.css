@@ -15,7 +15,11 @@ body {
   background-color: hsl(187, 90%, 32%);
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
@@ -80,14 +84,15 @@ button {
 }
 
 button:hover {
-  background-color: hwb(197 2% 47%);
+  background-color: rgba(0, 140, 255, 0.767);
 }
 
-input, button, textarea, select {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+input,
+button,
+textarea,
+select {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 
 /*
 @media (max-width: 768px) {
