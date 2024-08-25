@@ -24,7 +24,8 @@ svg {
   max-width: 100%;
 }
 
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
 }
 
@@ -83,15 +84,15 @@ button {
   margin-top: 20px;
 }
 
-button:hover {
-  background-color: rgba(0, 140, 255, 0.767);
-}
-
 input,
 button,
 textarea,
 select {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+  background-color: rgba(0, 140, 255, 0.767);
 }
 
 /*
