@@ -49,11 +49,13 @@ function Quote() {
           </p>
         </>
       )}
-      <div className="button-position">
-        <button onClick={handleQuote} id="new-quote" type="button">New Quote</button>
-      </div>
-      <div>
-        <a href="twitter.com/intent/tweet" target="_blank _top" id="tweet-quote">twitter</a>
+      <div id='b-t'>
+        <div className="button-position">
+          <button onClick={handleQuote} id="new-quote" type="button">New Quote</button>
+        </div>
+        <div id="tweet">
+          <a href="https://x.com/intent/post?hashtags=quotes&related=freecodecamp&text=%22Life+is+not+measured+by+the+number+of+breaths+we+take%2C+but+by+the+moments+that+take+our+breath+away.%22+Maya+Angelou" target="_blank _top" id="tweet-quote">tweet</a>
+        </div>
       </div>
     </div>
   );
