@@ -20,7 +20,7 @@
 
 - React
 - Git
-- GitHu
+- GitHub
 
 
 ## Author 👩‍💻
