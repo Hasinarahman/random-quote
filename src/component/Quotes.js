@@ -49,7 +49,7 @@ function Quote() {
           </p>
         </>
       )}
-      <div id='b-t'>
+      <div id="b-t">
         <div className="button-position">
           <button onClick={handleQuote} id="new-quote" type="button">New Quote</button>
         </div>
