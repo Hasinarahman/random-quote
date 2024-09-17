@@ -7,6 +7,7 @@
 
 ## Demo 📸
 
+![random quote machine](https://github.com/user-attachments/assets/5631ccb1-d72f-4547-90e7-19fd5a8a8b1b)
 
 
 
@@ -19,7 +20,7 @@
 
 - React
 - Git
-- GitHu
+- GitHub
 
 
 ## Author 👩‍💻
